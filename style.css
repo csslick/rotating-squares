@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.box-container {
+width: 100vw;
+height: 100vh;
+background: #ccc;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+}
+
+.box {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.rotate {
+animation: rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+
+}
